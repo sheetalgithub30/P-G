@@ -1,6 +1,9 @@
 *{
     font-family: Montserrat,Arial,sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 #intro{
     background-image: url("./assets/HP_2.jpg");
 }
@@ -101,48 +104,7 @@
       display: block;
     }
   }
-
-  #brand:hover{
-    #brandexpand{
-      display: block;
-    }
-
-  }
-
-  #brandexpand:hover{
-    display: block;
-  }
-
-  #impact:hover{
-    #impactexpand{
-      display: block;
-    }
-  }
-
-  #impactexpand:hover{
-    display: block;
-  }
-
-  #equal:hover{
-    #equalexpand{
-      display: block;
-    }
-  }
-
-  #equalexpand:hover{
-    display: block;
-  }
-
-  #story:hover{
-    #storyexpand{
-      display: block;
-    }
-  }
-
-  #storyexpand:hover{
-    display: block;
-  }
-
+ 
   footer{
     background-color: #003da5;
   }
