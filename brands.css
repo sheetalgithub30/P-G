@@ -14,7 +14,6 @@
     top: 0;
     height: 100%;
     width: 100%;
-    /* background: rgba(15, 15, 16, 0.5); */
     background: linear-gradient(to right,rgb(0, 0, 0), #26284bb9,rgba(251, 251, 252, 0.725));
     opacity: 0.9;
   }
