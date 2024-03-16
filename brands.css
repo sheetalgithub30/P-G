@@ -1,0 +1,80 @@
+*{
+    font-family: Montserrat,Arial,sans-serif;
+}
+
+#hero{
+   background-image: url("./assets/brands_hero.jpg");
+   background-size: cover;
+}
+
+#hero::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* background: rgba(15, 15, 16, 0.5); */
+    background: linear-gradient(to right,rgb(0, 0, 0), #26284bb9,rgba(251, 251, 252, 0.725));
+    opacity: 0.9;
+  }
+
+  .clippath{
+    clip-path: ellipse(50% 12% at 50% 100%);
+    background-color: white;
+    height: 20rem;
+    position:absolute;
+    bottom: -18px;
+    left:0;
+    right: 0;
+  }
+
+footer{
+    background-color: #003da5;
+ }
+
+ footer{
+    position: relative;
+  }
+
+  .clippathfoot{
+    clip-path: ellipse(50% 12% at 50% 100%);
+    background-color: #003da5;
+        height: 20rem;
+    position:absolute;
+    top:-20rem;
+    left:0;
+    right: 0;
+  }
+
+
+@media screen and (max-width:960px){
+    navbar ul li a{
+        display: none;
+    }
+    navbar a{
+        display: none;
+    }
+    #bar{
+        display: block;
+        margin: 10px 20px;
+    }
+    navbar ul li img{
+        display: flex;
+        position: relative;
+        top:-2rem;
+        width: 3rem;
+        margin: 10px 10px;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    .footer-top{
+        display: block;
+      }
+    
+      .footer-bottom{
+        display: flex;
+        flex-direction: column;
+      }
+}

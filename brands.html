@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link href="brands.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <navbar
+    class="flex justify-between items-center font-semibold text-blue-800 bg-slate-200 fixed top-0 left-0 right-0 z-20 ">
+    <a href="" class="px-3 py-2 mx-2.5 rounded-full border border-blue-800 text-xs ">
+          
+      <i class="fa-solid fa-globe text-base"></i>
+      &nbsp;India - EN
+    </a>
+    <ul class="flex text-base justify-between items-center text-sm font-bold">
+      <li id="brand" class="px-3 "><a href="">Our Brands&nbsp;&nbsp;<i class="fa-solid fa-angle-down text-xs"></i></a>
+        <div id="brandexpand" class="absolute top-20 bg-white rounded-2xl hidden">
+          <ul class="text-blue-900 mx-3 ">
+            <li class="py-2">Brands</li>
+            <li class="py-2">Innovation</li>
+            <li class="py-2">Product Safety</li>
+            <li class="py-2">Ingredients</li>
+            <li class="py-2">#BECRUELTYFREE</li>
+           </ul>
+        </div>
+      </li>
+      <li id="impact" class="px-3"><a href="">Our Impact&nbsp;&nbsp;<i class="fa-solid fa-angle-down text-xs"></i></a>
+        <div id="impactexpand" class="absolute top-20 bg-white rounded-2xl hidden ">
+          <ul class="text-blue-900 mx-3 ">
+            <li class="py-2">Community Impact</li>
+            <li id="equal" class="py-2">Equality & Inclusion
+              <i class="fa-solid fa-chevron-right text-xs"></i>
+              <div id="equalexpand" class="absolute left-64 w-60 bg-white rounded-2xl hidden ">
+                <ul class="text-blue-900 mx-3 ">
+                  <li class="py-2">Gender Equality</li>
+                  <li class="py-2">  People with Disabilities</li>
+                    <li class="py-2">  LGBTQ+</li>
+                  </ul>
+                </div>
+            </li>
+            <li class="py-2">Sustainability</li>
+            <li class="py-2">Ethics & Corporate Responsibility</li>
+           </ul>
+        </div>
+      </li>
+      <li class="w-16 mx-12 relative top-8"><img src="./assets/P_G_Logo_RGB.svg"></li>
+      <li id="story" class="px-3"><a href="">Our Story&nbsp;&nbsp;<i class="fa-solid fa-angle-down text-xs"></i></a>
+        <div id="storyexpand" class="absolute top-20 bg-white rounded-2xl hidden">
+          <ul class="text-blue-900 mx-3 ">
+            <li class="py-2">Who We Are</li>
+            <li class="py-2">P&G History</li>
+           </ul>
+        </div>
+      </li>
+      <li class="px-3"><a href="">Coupons&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+    </ul>
+
+    <a href="" class="px-3 py-2 mx-3 rounded-full border border-blue-800 text-xs"> Search here &nbsp;
+      <i class="fa-solid fa-magnifying-glass text-base"></i></a>
+
+    <li id="bar" class="list-none hidden"><i class="fa-solid fa-bars"></i></li>
+
+
+  </navbar>
+
+  <div id="hero" class="w-full h-screen flex items-center">
+         <div class="w-4/12 ml-36 z-10 px-3">
+          <img src="./assets/brandHead.svg">
+          <h1 class="text-white text-8xl font-bold py-2">Brands<span class="text-blue-500">.</span></h1>
+          <p class="text-white text-base font-semibold leading-relaxed">P&G brands are trusted to provide products of the highest quality and superior performance and value for the daily-use cleaning, health and hygiene needs of consumers around the world.</p>
+         </div>
+
+         <div class="clippath"></div>
+  </div>
+
+
+
+    <div class="my-18 flex relative">
+      <div class="p-16">
+        <h2  class="text-blue-900 text-base font-bold">FILTER</h2>
+        <div class="px-3 py-2 my-4 rounded-full border border-blue-800 ">
+          <input type="text" placeholder="search"><i class="fa-solid fa-magnifying-glass text-base text-blue-900"></i>
+        </div>
+        <div class="">
+          <ul class="text-base text-blue-700 font-medium">
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Baby Care</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Fabric Care</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Feminine Care</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Grooming</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Hair Care</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Home Care</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Oral Care</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Personal Health Care</label>
+            </li>
+            <li class="py-1">
+              <input type="checkbox">
+              <label>Skin and Personal Care</label>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button
+          class="py-1 px-6 my-2 rounded-full overflow-hidden border border-blue-800 bg-white text-base font-bold text-blue-800 hover:text-white hover:bg-blue-900 ">
+          <span class="relative z-10">Clear</span>
+        </button>
+        </div>
+      </div>
+     
+    <div class="p-16">
+      <div>
+        <h1 class="text-blue-900 text-4xl font-extrabold">Baby Care</h1>
+        <div>
+        <div class="w-44 h-44 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/Pampers.jpg" class="hover:scale-125"></div>
+         <p class="text-blue-700 font-semibold text-sm">Nappies, Pants and Baby Wipes</p>
+         </div>
+      </div>
+      <div class="my-10">
+        <h1 class="text-blue-900 text-4xl font-extrabold ">Fabric Care</h1>
+        <div class="flex items-center">
+           <div class="mx-12 flex flex-col items-center">
+            <div class="w-44 h-44 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/Ariel.jpg" class="hover:scale-125"></div>
+            <p class="text-blue-700 font-semibold text-sm">Laundry Products</p>
+           </div> 
+           <div class="mx-12 flex flex-col">
+            <div class="w-44 h-44 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/Tide200x200.jpg" class="hover:scale-125"></div>
+            <p class="text-blue-700 font-semibold text-sm">Laundry Products</p>
+           </div>  
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <footer >
+    <div class="clippathfoot"></div>
+    <div class="py-6 ">
+      <div class="flex justify-center items-center">
+        <button
+        class="py-2.5 px-8 rounded-full  overflow-hidden border border-white bg-blue-900 text-base font-bold text-white hover:text-blue-900 hover:bg-white ">
+        <span class="relative z-10">Back to top</span>
+      </button>
+      </div>
+
+  <div class="footer-top flex justify-between mx-3 mt-12">
+        <div class="py-6">
+          <ul>
+            <li class="text-sm font-semibold text-white hover:underline"><i class="fa-solid fa-phone px-3 py-2"></i><a href="">Contact&nbsp;&nbsp;</a></li>
+            <li class="text-sm font-semibold text-white hover:underline"><i class="fa-solid fa-briefcase px-3 py-2"></i><a href="">Carrers&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+          </ul>
+        </div>
+        <div></div>
+        <div class="py-6">
+          <h3 class="font-semibold text-white mb-4">PARTNERS & INVESTORS</h3>
+          <ul class="text-sm font-semibold text-white">
+            <li class="py-1 hover:underline"><a href="">India Investors</a></li>
+            <li class="py-1 hover:underline"><a href="">Partner with us&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+            <li class="py-1 hover:underline"><a href="">Suppliers&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+          </ul>
+         </div>
+
+         <div class="py-6">
+          <h3 class="font-semibold text-white mb-4">OUR COMPANY</h3>
+          <ul class="text-sm font-semibold text-white">
+            <li class="py-1 hover:underline"><a href="">Leadership</a></li>
+            <li class="py-1 hover:underline"><a href="">Global Structure & Governance</a></li>
+            <li class="py-1 hover:underline"><a href="">Global Policies & Practices</a></li>
+            <li class="py-1 hover:underline"><a href="">Indian Governance & Policies</a></li>
+            <li class="py-1 hover:underline"><a href="">Archive</a></li>
+            <li class="py-1 hover:underline"><a href="">Awards & Recognition&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+            <li class="py-1 hover:underline"><a href="">Newsroom&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+          </ul>
+         </div>
+
+         <div class="py-6">
+          <h3 class="font-semibold text-white mb-4">HELP</h3>
+          <ul class="text-sm font-semibold text-white">
+            <li class="py-1 hover:underline"><a href="">Sitemap</a></li>
+            </ul>
+         </div>
+
+         <div class="py-6">
+          <h3 class="font-semibold text-white mb-4">LEGAL</h3>
+          <ul class="text-sm font-semibold text-white">
+            
+            <li class="py-1 hover:underline"><a href="">Privacy&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+            <li class="py-1 hover:underline"><a href="">Terms and Conditions&nbsp;&nbsp;<i class="fa-solid fa-arrow-up text-sm rotate-45"></i></a></li>
+            <li class="py-1 hover:underline"><a href="">AdChoices<i class="fa-regular fa-square-plus"></i></a></li>
+          </ul>
+         </div>
+
+  </div>
+
+  <div class="footer-bottom flex justify-between items-center py-2 mx-48 mt-12">
+    <div class="py-6">
+      <a href="" class="px-3 py-2 rounded-full border border-blue-800 text-lg text-blue-800 bg-white">
+        <i class="fa-solid fa-globe text-base"></i>
+        &nbsp;India
+      </a>
+    </div>
+    <div class="py-6">
+        <p class="text-sm text-white">&copy; 2024 Procter & Gamble
+        </p>
+    </div>
+    <div class="text-white py-6">
+      <i class="fa-brands fa-facebook mx-3 text-xl"></i>
+      <i class="fa-brands fa-x-twitter mx-3 text-xl"></i>
+      <i class="fa-brands fa-youtube mx-3 text-xl"></i>
+      <i class="fa-brands fa-instagram mx-3 text-xl"></i>
+      <i class="fa-brands fa-linkedin mx-3 text-xl"></i>
+    </div>
+  </div>
+</div>
+</footer>
+</div>
+</body>
+</html>
