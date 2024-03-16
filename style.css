@@ -1,0 +1,246 @@
+*{
+    font-family: Montserrat,Arial,sans-serif;
+}
+#intro{
+    background-image: url("./assets/HP_2.jpg");
+}
+#intro::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  #relation::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  #career::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .clippath{
+    clip-path: ellipse(50% 12% at 50% 100%);
+    background-color: white;
+    height: 20rem;
+    position:absolute;
+    bottom: -18px;
+    left:0;
+    right: 0;
+  }
+
+  footer{
+    position: relative;
+  }
+
+  .clippathfoot{
+    clip-path: ellipse(50% 12% at 50% 100%);
+    background-color: #003da5;
+        height: 20rem;
+    position:absolute;
+    top:-20rem;
+    left:0;
+    right: 0;
+  }
+
+  #testimonials{
+   margin-left: 10rem;
+   margin-right: 10rem; 
+  }
+
+  #testimonials .section-wrapper {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-auto-flow: column;
+  }
+  
+  
+  #testimonials .testimonial {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+  }
+  
+  #testimonials .testimonial img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  #relation:hover{
+     #invest{
+      display: block;
+     }
+  }
+
+
+  #career:hover{
+    #explore{
+      display: block;
+    }
+  }
+
+  #brand:hover{
+    #brandexpand{
+      display: block;
+    }
+
+  }
+
+  #brandexpand:hover{
+    display: block;
+  }
+
+  #impact:hover{
+    #impactexpand{
+      display: block;
+    }
+  }
+
+  #impactexpand:hover{
+    display: block;
+  }
+
+  #equal:hover{
+    #equalexpand{
+      display: block;
+    }
+  }
+
+  #equalexpand:hover{
+    display: block;
+  }
+
+  #story:hover{
+    #storyexpand{
+      display: block;
+    }
+  }
+
+  #storyexpand:hover{
+    display: block;
+  }
+
+  footer{
+    background-color: #003da5;
+  }
+
+  #step1{
+    background-image: url(./assets/Water__2___1_.jpg);
+  }
+
+  #step{
+    animation-name: myfirst;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    overflow-y: hidden;
+  }
+
+
+  @keyframes myfirst{
+    from{
+        transform: translate(400px);
+    }
+    to{
+       transform: translate(-400px);
+    }
+  }
+
+
+  @media screen and (max-width:1400px) {
+    #footprint{
+      height: 18rem;
+    }
+    #heading{
+      font-size: 1rem;
+    }
+    #sustain{
+      height: 18rem;
+    }
+    #sustain img{
+        height: 100%;
+    }
+    
+  }
+  @media screen and (max-width:1120px) {
+    #brands {
+        margin-left:0;
+        margin-right: 0;
+    }
+
+    #step{
+      display: none;
+    }
+    #step1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  }
+
+  @media screen and (max-width:960px){
+    navbar ul li a{
+        display: none;
+    }
+    navbar a{
+        display: none;
+    }
+    #bar{
+        display: block;
+        margin: 10px 20px;
+    }
+    navbar ul li img{
+        display: flex;
+        position: relative;
+        top:-2rem;
+        width: 3rem;
+        margin: 10px 10px;
+        align-items: center;
+        justify-content: center;
+    } 
+    #intro h1{
+        font-size: 3rem;
+    }
+    #brands{
+      display:none ;
+    }
+
+    #brandHead{
+      font-size: 2rem;
+    }
+    #testimonials{
+      display: block;
+    }
+  .footer-top{
+    display: block;
+  }
+
+  .footer-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+
+  }
