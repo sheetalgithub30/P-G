@@ -46,6 +46,12 @@ footer{
         justify-content: center;
     } 
 
+    #main h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 4px;
+    }
+
 .footer-top{
         display: block;
       }
@@ -55,11 +61,15 @@ footer{
         flex-direction: column;
       }
 
-      #content{
-        flex-direction: column;
-    }
-    #content div{
+    .sz{
         width: 100%;
     }
 }
 
+@media screen and (max-width:1390px) {
+    #main h1{
+        font-size: 3rem;
+        text-align: center;
+        padding: 6px;
+    }  
+}
