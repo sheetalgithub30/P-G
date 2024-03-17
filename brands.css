@@ -28,6 +28,21 @@
     right: 0;
   }
 
+/* 
+    #left {
+      position: fixed;
+      top: 0%;
+      left: 0;
+    }
+
+    #right {
+      
+      position: relative;
+      left:30%;
+    } */
+
+
+
 footer{
     background-color: #003da5;
  }

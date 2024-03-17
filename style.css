@@ -54,7 +54,7 @@ body{
   .clippathfoot{
     clip-path: ellipse(50% 12% at 50% 100%);
     background-color: #003da5;
-        height: 20rem;
+    height: 20rem;
     position:absolute;
     top:-20rem;
     left:0;
@@ -96,8 +96,10 @@ body{
      #invest{
       display: block;
      }
+    
   }
 
+   
 
   #career:hover{
     #explore{
