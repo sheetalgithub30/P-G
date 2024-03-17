@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+#container{
+    width: 100vw;
+}
+
 .clippathfoot{
     clip-path: ellipse(50% 12% at 50% 100%);
     background-color: #003da5;
@@ -50,4 +54,12 @@ footer{
         display: flex;
         flex-direction: column;
       }
+
+      #content{
+        flex-direction: column;
+    }
+    #content div{
+        width: 100%;
+    }
 }
+

@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+#container{
+  width: 100vw;
+}
+
 #hero{
    background-image: url("./assets/brands_hero.jpg");
    background-size: cover;
@@ -64,6 +68,7 @@ footer{
 
 
 @media screen and (max-width:1184px) {
+ 
   #left{
     display: none;
   }
@@ -104,16 +109,84 @@ footer{
 }
 
 @media screen and (max-width:830px) {
-   #fabric{
+  #hero h1{
+    font-size: 40px;
+  }
+  #con{
+    width: 80%;
+    margin-left:4% ;
+  }
+  #baby{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #fabric{
+    text-align: center;
+  }
+   #fabricin{
    flex-direction: column;
-   align-items: flex-start;
+   }
+
+   #feminine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+
+   #grooming{
+    text-align: center;
+   }
+   #groomingin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
    }
    #hair{
-      flex-direction: column;
-      align-items: flex-start;
+    text-align: center;
    }
-   #skin{
+   #hairin{
+      flex-direction: column;
+   }
+   #home{
+    display:flex;
     flex-direction: column;
-    align-items: flex-start;
-    }
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   #oral{
+    text-align: center;
+   }
+   #oralin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   #ph{
+    text-align: center;
+   }
+   #phin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #skin{
+    text-align: center;
+   }
+   #skinin{
+      flex-direction: column;
+   }
+   .empty{
+    display: none;
+   }
 }
