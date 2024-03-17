@@ -1,5 +1,6 @@
 *{
     font-family: Montserrat,Arial,sans-serif;
+    scroll-behavior: smooth;
 }
 
 #hero{
@@ -62,6 +63,15 @@ footer{
   }
 
 
+@media screen and (max-width:1184px) {
+  #left{
+    display: none;
+  }
+  #right{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width:960px){
     navbar ul li a{
         display: none;
@@ -91,4 +101,19 @@ footer{
         display: flex;
         flex-direction: column;
       }
+}
+
+@media screen and (max-width:830px) {
+   #fabric{
+   flex-direction: column;
+   align-items: flex-start;
+   }
+   #hair{
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   #skin{
+    flex-direction: column;
+    align-items: flex-start;
+    }
 }

@@ -88,10 +88,10 @@
 
 
 
-    <div class="my-18 flex ">
-      <div id="left" class="p-16 bg-white ">
+    <div  class="my-18 flex w-full overflow-hidden">
+      <div id="left" class="p-16 bg-white w-auto ">
         <h2  class="text-blue-900 text-base font-bold">FILTER</h2>
-        <div class="px-3 py-2 my-4 rounded-full border border-blue-800 ">
+        <div id="search" class="px-3 py-2 my-4 rounded-full border border-blue-800 ">
           <input type="text" placeholder="search"><i class="fa-solid fa-magnifying-glass text-base text-blue-900"></i>
         </div>
         <div class="">
@@ -154,14 +154,14 @@
 
       <div class="my-20 ">
         <h1 class="text-blue-900 text-4xl font-extrabold ">Fabric Care</h1>
-        <div class="flex justify-between">
+        <div id="fabric" class="flex justify-between">
            <div class=" flex flex-col justify-center items-center">
             <div class="w-52 h-52 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/Ariel.jpg" class=""></div>
-            <p class="text-blue-700 font-semibold text-sm">Laundry Products</p>
+            <p class="text-blue-700 font-semibold text-sm  w-64 text-center">Laundry Products</p>
            </div> 
            <div class="flex flex-col justify-center items-center">
             <div class="w-52 h-52 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/Tide200x200.jpg" class=""></div>
-            <p class="text-blue-700 font-semibold text-sm">Laundry Products</p>
+            <p class="text-blue-700 font-semibold text-sm w-64 text-center">Laundry Products</p>
            </div>
            <div class="">
             <div class="w-52 h-52 my-16"></div>
@@ -186,9 +186,9 @@
          </div>
       </div>
 
-      <div class="my-20 ">
+      <div  class="my-20 ">
         <h1 class="text-blue-900 text-4xl font-extrabold ">Hair Care</h1>
-        <div class="flex justify-between ">
+        <div  id="hair" class="flex justify-between ">
            <div class="flex flex-col justify-center items-center ">
             <div class=" w-52 h-52 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/headandshoulders-logo200x200.png" class=""></div>
             <p class="text-blue-700 font-semibold text-sm w-64 text-center">World Leaders in Dandruff and Scalp Care</p>
@@ -231,14 +231,14 @@
 
       <div class="my-20">
         <h1 class="text-blue-900 text-4xl font-extrabold ">Skin and Personal Care</h1>
-        <div class="flex justify-between">
+        <div id="skin" class="flex justify-between">
            <div class=" ">
             <div class="w-52 h-52 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/Olay.jpg" class=""></div>
-            <p class="text-blue-700 font-semibold text-sm w-52 text-center">Skin Care</p>
+            <p class="text-blue-700 font-semibold text-sm w-64 text-center">Skin Care</p>
            </div> 
            <div class="">
             <div class="w-52 h-52 my-16 shadow-xl rounded-full flex items-center justify-center overflow-hidden hover:scale-125"><img src="./assets/Old-Spice.jpg" class=""></div>
-            <p class="text-blue-700 font-semibold text-sm w-72 text-center">Pre- and Post-Shave, Body Wash and Deodorants</p>
+            <p class="text-blue-700 font-semibold text-sm w-64 text-center">Pre- and Post-Shave, Body Wash and Deodorants</p>
            </div>
            <div class="">
             <div class="w-52 h-52 my-16"></div>
@@ -258,9 +258,9 @@
     <div class="clippathfoot"></div>
     <div class="py-6">
       <div class="flex justify-center items-center">
-        <button
+        <button 
         class="py-2.5 px-8 rounded-full  overflow-hidden border border-white bg-blue-900 text-base font-bold text-white hover:text-blue-900 hover:bg-white ">
-        <span class="relative z-10">Back to top</span>
+        <span class="relative z-10"><a href="#hero">Back to top</a></span>
       </button>
       </div>
 

@@ -1,5 +1,6 @@
 *{
     font-family: Montserrat,Arial,sans-serif;
+    scroll-behavior: smooth;
 }
 body{
   overflow-x: hidden;
@@ -62,13 +63,13 @@ body{
   }
 
   #testimonials{
-   margin-left: 10rem;
-   margin-right: 10rem; 
+   margin-left: 6rem;
+   margin-right: 6rem; 
   }
 
   #testimonials .section-wrapper {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     overflow-y: hidden;
     overflow-x: scroll;
     display: grid;
@@ -228,3 +229,19 @@ body{
       height: 100%;
     }
   }
+@media screen and (max-width:500px) {
+  #brandHead{
+    font-size: 14px;
+  }
+  #testimonials{
+    margin-left: 2rem;
+    margin-right: 2rem; 
+   }
+   #iconic{
+       font-size: 14px;
+       margin: 2px;
+       padding: 3px;
+   }
+  
+}
+ 
