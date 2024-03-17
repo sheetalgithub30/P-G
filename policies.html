@@ -1,11 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>policies</title>
-</head>
-<body>
-    <h1>ihdiudgufdi</h1>
-</body>
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./policies.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <navbar
+        class="flex justify-between items-center font-semibold text-blue-800 bg-white border-b-2 fixed top-0 left-0 right-0 z-20"
+      >
+        <a
+          href=""
+          class="px-3 py-2 mx-2.5 rounded-full border border-blue-800 text-xs"
+        >
+          <i class="fa-solid fa-globe text-base"></i>
+          &nbsp;India - EN
+        </a>
+        <ul
+          class="flex text-base justify-between items-center text-sm font-bold"
+        >
+          <li id="brand" class="px-3">
+            <a href=""
+              >Our Brands&nbsp;&nbsp;<i
+                class="fa-solid fa-angle-down text-xs"
+              ></i
+            ></a>
+            <div
+              id="brandexpand"
+              class="absolute top-20 bg-white rounded-2xl hidden"
+            >
+              <ul class="text-blue-900 mx-3">
+                <li class="py-2">
+                  <a
+                    href="./brands.html"
+                    onclick="window.open('./brands.html','_self');"
+                    >Brands</a
+                  >
+                </li>
+                <li class="py-2"><a href="">Innovation</a></li>
+                <li class="py-2"><a href="">Product Safety</a></li>
+                <li class="py-2"><a href="">Ingredients</a></li>
+                <li class="py-2"><a href="">#BECRUELTYFREE</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="impact" class="px-3">
+            <a href=""
+              >Our Impact&nbsp;&nbsp;<i
+                class="fa-solid fa-angle-down text-xs"
+              ></i
+            ></a>
+            <div
+              id="impactexpand"
+              class="absolute top-20 bg-white rounded-2xl hidden"
+            >
+              <ul class="text-blue-900 mx-3">
+                <li class="py-2"><a href="">Community Impact</a></li>
+                <li id="equal" class="py-2">
+                  <a href="">Equality & Inclusion</a>
+                  <i class="fa-solid fa-chevron-right text-xs"></i>
+                  <div
+                    id="equalexpand"
+                    class="absolute left-64 w-60 bg-white rounded-2xl hidden"
+                  >
+                    <ul class="text-blue-900 mx-3">
+                      <li class="py-2"><a href="">Gender Equality</a></li>
+                      <li class="py-2">
+                        <a href="">People with Disabilities</a>
+                      </li>
+                      <li class="py-2"><a href="">LGBTQ+</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="py-2"><a href="">Sustainability</a></li>
+                <li class="py-2">
+                  <a href="./policies.html"
+                    >Ethics & Corporate Responsibility</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="w-16 mx-12 relative top-8">
+            <img src="./assets/P_G_Logo_RGB.svg" />
+          </li>
+          <li id="story" class="px-3">
+            <a href=""
+              >Our Story&nbsp;&nbsp;<i
+                class="fa-solid fa-angle-down text-xs"
+              ></i
+            ></a>
+            <div
+              id="storyexpand"
+              class="absolute top-20 bg-white rounded-2xl hidden"
+            >
+              <ul class="text-blue-900 mx-3">
+                <li class="py-2"><a href="">Who We Are</a></li>
+                <li class="py-2"><a href="">P&G History</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="px-3">
+            <a href=""
+              >Coupons&nbsp;&nbsp;<i
+                class="fa-solid fa-arrow-up text-sm rotate-45"
+              ></i
+            ></a>
+          </li>
+        </ul>
+
+        <a
+          href=""
+          class="px-3 py-2 mx-3 rounded-full border border-blue-800 text-xs"
+        >
+          Search here &nbsp;
+          <i class="fa-solid fa-magnifying-glass text-base"></i
+        ></a>
+
+        <li id="bar" class="list-none hidden">
+          <i class="fa-solid fa-bars"></i>
+        </li>
+      </navbar>
+
+      <div class="pt-32 pl-32 pr-32">
+        <h1 class="text-blue-900 font-bold text-8xl my-10 pl-32">
+          Policies & Practices<span class="text-yellow-400">.</span>
+        </h1>
+        <p class="py-8 text-center">
+          P&G’s policies for business conduct flow from our
+          <span class="text-blue-800 font-semibold underline"
+            ><a href=""> Purpose, Values and Principles </a></span
+          >. Our policies are aspirational statements of the application of our
+          Purpose, Values and Principles to broad, major issues and societal
+          expectations. While P&G competes hard to achieve leadership and
+          business success, the Company is concerned not only with results, but
+          with how those results are achieved. We will never condone nor
+          tolerate efforts or activities to achieve results through illegal or
+          unethical dealings anywhere in the world. Click to learn more about a
+          specific P&G policy.
+        </p>
+      </div>
+
+      <div class="my-32 mx-20 flex flex-wrap justify-center">
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Ethics & Corporate Responsibility</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Conflict-Free Materials</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Employee Policies</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Environmental Quality</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Fair Pay</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Human Rights Policy Statement</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Non-Discrimination</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Product Safety & Compilance</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Purpose, Values and Principles</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Social Media</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Speaking Up</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between items-center px-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>
+            Responsible Sourcing Expectations for External Business Partners
+          </div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div
+          class="w-5/12 rounded-full bg-slate-200 font-medium text-xl flex justify-between px-6 py-6 m-4 hover:text-white hover:bg-blue-900"
+        >
+          <div>Worldwide Business Conduct Manual</div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+
+        <div class="w-5/12 py-6 m-4"></div>
+      </div>
+
+      <footer>
+        <div class="clippathfoot"></div>
+        <div class="py-6">
+          <div class="flex justify-center items-center">
+            <button
+              class="py-2.5 px-8 rounded-full overflow-hidden border border-white bg-blue-900 text-base font-bold text-white hover:text-blue-900 hover:bg-white"
+            >
+              <span class="relative z-10">Back to top</span>
+            </button>
+          </div>
+
+          <div class="footer-top flex justify-between mx-3 mt-6">
+            <div class="py-6">
+              <ul>
+                <li class="text-sm font-semibold text-white hover:underline">
+                  <i class="fa-solid fa-phone px-3 py-2"></i
+                  ><a href="">Contact&nbsp;&nbsp;</a>
+                </li>
+                <li class="text-sm font-semibold text-white hover:underline">
+                  <i class="fa-solid fa-briefcase px-3 py-2"></i
+                  ><a href=""
+                    >Carrers&nbsp;&nbsp;<i
+                      class="fa-solid fa-arrow-up text-sm rotate-45"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div></div>
+            <div class="py-6">
+              <h3 class="font-semibold text-white mb-4">
+                PARTNERS & INVESTORS
+              </h3>
+              <ul class="text-sm font-semibold text-white">
+                <li class="py-1 hover:underline">
+                  <a href="">India Investors</a>
+                </li>
+                <li class="py-1 hover:underline">
+                  <a href=""
+                    >Partner with us&nbsp;&nbsp;<i
+                      class="fa-solid fa-arrow-up text-sm rotate-45"
+                    ></i
+                  ></a>
+                </li>
+                <li class="py-1 hover:underline">
+                  <a href=""
+                    >Suppliers&nbsp;&nbsp;<i
+                      class="fa-solid fa-arrow-up text-sm rotate-45"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="py-6">
+              <h3 class="font-semibold text-white mb-4">OUR COMPANY</h3>
+              <ul class="text-sm font-semibold text-white">
+                <li class="py-1 hover:underline"><a href="">Leadership</a></li>
+                <li class="py-1 hover:underline">
+                  <a href="">Global Structure & Governance</a>
+                </li>
+                <li class="py-1 hover:underline">
+                  <a href="">Global Policies & Practices</a>
+                </li>
+                <li class="py-1 hover:underline">
+                  <a href="">Indian Governance & Policies</a>
+                </li>
+                <li class="py-1 hover:underline"><a href="">Archive</a></li>
+                <li class="py-1 hover:underline">
+                  <a href=""
+                    >Awards & Recognition&nbsp;&nbsp;<i
+                      class="fa-solid fa-arrow-up text-sm rotate-45"
+                    ></i
+                  ></a>
+                </li>
+                <li class="py-1 hover:underline">
+                  <a href=""
+                    >Newsroom&nbsp;&nbsp;<i
+                      class="fa-solid fa-arrow-up text-sm rotate-45"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="py-6">
+              <h3 class="font-semibold text-white mb-4">HELP</h3>
+              <ul class="text-sm font-semibold text-white">
+                <li class="py-1 hover:underline"><a href="">Sitemap</a></li>
+              </ul>
+            </div>
+
+            <div class="py-6">
+              <h3 class="font-semibold text-white mb-4">LEGAL</h3>
+              <ul class="text-sm font-semibold text-white">
+                <li class="py-1 hover:underline">
+                  <a href=""
+                    >Privacy&nbsp;&nbsp;<i
+                      class="fa-solid fa-arrow-up text-sm rotate-45"
+                    ></i
+                  ></a>
+                </li>
+                <li class="py-1 hover:underline">
+                  <a href=""
+                    >Terms and Conditions&nbsp;&nbsp;<i
+                      class="fa-solid fa-arrow-up text-sm rotate-45"
+                    ></i
+                  ></a>
+                </li>
+                <li class="py-1 hover:underline">
+                  <a href=""
+                    >AdChoices<i class="fa-regular fa-square-plus"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="footer-bottom flex justify-between items-center mx-48 mt-6"
+          >
+            <div class="py-6">
+              <a
+                href=""
+                class="px-3 py-2 rounded-full border border-blue-800 text-lg text-blue-800 bg-white"
+              >
+                <i class="fa-solid fa-globe text-base"></i>
+                &nbsp;India
+              </a>
+            </div>
+            <div class="py-6">
+              <p class="text-sm text-white">&copy; 2024 Procter & Gamble</p>
+            </div>
+            <div class="text-white py-4">
+              <i class="fa-brands fa-facebook mx-3 text-xl"></i>
+              <i class="fa-brands fa-x-twitter mx-3 text-xl"></i>
+              <i class="fa-brands fa-youtube mx-3 text-xl"></i>
+              <i class="fa-brands fa-instagram mx-3 text-xl"></i>
+              <i class="fa-brands fa-linkedin mx-3 text-xl"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
