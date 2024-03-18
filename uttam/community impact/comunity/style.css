@@ -1,0 +1,572 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* }
+.hero_icon img {
+    order: 2;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -200px;
+    padding: ;
+    background-color: #fff;
+    border-radius: 60%;
+    overflow: hidden;
+} */
+/* .hero_icon img{
+    border: 2px solid red;
+    height: 600px;
+    width: 1500px;
+    border-radius: 100%;
+    padding: auto;
+} */
+#hero{
+    position: relative ;
+}
+.hero-symbol{
+    font-size: 50px;
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    /* padding: 2px; */
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    left: 50%;
+}
+.hero_icon img {
+  /* border: 2px solid red; */
+  height: 600px;
+  width: 1700px;
+  border-radius: 100%;
+  padding: auto;
+  margin-top: -200px;
+  margin-left: -100px;
+  /* background-color: #000; */
+  background: #fff;
+}
+.content {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  background-color:#fff;
+  text-align: center;
+  /* padding: 30px; */
+}
+.content span {
+  color: yellow;
+}
+.content h1 {
+  font-size: 50px;
+  color: #003da7;
+  padding: 80px;
+  font-weight: 800;
+}
+.content h2 {
+  /* font-family: 50px; */
+  color: #003da7;
+  padding-bottom: 25px;
+}
+.content p {
+  padding: 15px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.content-2 {
+  background: #fff;
+  border: 2px solid white;
+  padding-bottom: 60px;
+}
+.content-2 .para {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+}
+.icons {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.pic img {
+  width: 100%;
+  height: 100px;
+}
+.pic p a {
+  text-decoration: none;
+  color: #003da7;
+  font-weight: 600;
+}
+.pic p a i {
+  color: #003da7;
+  /* opacity: 0.5; */
+}
+.pic p {
+  padding: 10px;
+  color: #003da7;
+  font-weight: 500;
+}
+.pic p a .i-1 {
+  padding-left: 42px;
+  padding-top: 10px;
+}
+.pic p a .i-2 {
+  padding-left: 92px;
+  padding-top: 10px;
+}
+.pic p a .i-3 {
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.pic p a .i-1:hover {
+  transform: calc(3);
+}
+
+/* P&G shiksha */
+.P-and-G {
+  padding: 60px;
+  /* border: 5px solid  orange; */
+  background-color: #f1f1f1;
+}
+
+.p-g {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.p-g h2 {
+  padding-bottom: 30px;
+  color: #003da7;
+  font-weight: 600;
+}
+.p-g p {
+  padding-bottom: 30px;
+  /* color:; */
+}
+.p-g-content {
+  display: flex;
+}
+.p-g-content .description {
+  width: 50%;
+  /* width: 52%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+.description h2 {
+  color: #003da7;
+  /* align-items: center; */
+  /* text-align: center; */
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 20px;
+  padding-right: 60px;
+}
+.description p {
+  width: 85%;
+  line-height: 28px;
+}
+.p-g-content .icon {
+  /* width: 48%; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.p-g-content .icon img {
+  border-radius: 50%;
+}
+
+.B-and-L {
+  padding: 60px;
+  background-color: #fff;
+}
+
+.b-l {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.b-l h2 {
+  padding: 20px;
+  padding-bottom: 30px;
+  color: #003da7;
+  font-weight: 600;
+  font-size: 20px;
+}
+.pics {
+  width: 100%;
+}
+.pics img {
+  width: 50%;
+  height: 200px;
+}
+.b-l-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 30px;
+  /* align-items: center; */
+}
+.b-l-content h4 {
+  color: #003da7;
+  padding: 15px;
+  font-weight: 500;
+}
+.b-l-content p {
+  word-wrap: wrap;
+  line-height: 23px;
+}
+
+.covid-19 {
+  /* width: 60%; */
+  text-align: center;
+}
+.covid-19 h3 {
+  font-size: 30px;
+  color: #003da7;
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.covid-19 p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 30px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  /* align-items: center;  */
+  text-align: center;
+  gap: 15px;
+}
+.images {
+  padding: 20px;
+  /* width: 50%; */
+}
+.png img {
+  width: 80%;
+  height: 80px;
+  /* padding-bottom: 10px; */
+}
+.png a {
+  text-decoration: none;
+  color: #003da7;
+  font-weight: 500;
+  font-size: small;
+  /* padding: 10px; */
+}
+.png p a i {
+  color: white;
+  padding: 10px;
+  opacity: 0.5;
+}
+.covid-content {
+  text-align: center;
+  padding-top: 70px;
+}
+.covid-content h3 {
+  font-size: 30px;
+  color: #003da7;
+  /* padding-top: 30px; */
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.covid-content p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 15px;
+  padding-bottom: 50px;
+  line-height: 25px;
+  font-weight: 500;
+  /* font-size: 20px; */
+}
+.vaccine {
+  text-align: center;
+  padding: 50px 0;
+}
+.vaccine p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 25px;
+  line-height: 25px;
+  /* font-weight: 500; */
+}
+
+.impact-content {
+  text-align: center;
+}
+.impact-content h3 {
+  font-size: 30px;
+  color: #003da7;
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.impact-content p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* padding: 15px; */
+  /* padding: 50px; */
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn button {
+  /* padding: auto; */
+  /* margin: auto; */
+  padding: 10px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  border: 1px solid #003da7;
+}
+.btn button a {
+  text-decoration: none;
+  /* align-items: center; */
+  font-size: 13px;
+  font-weight: 600;
+  color: #003da7;
+}
+.btn button a i {
+  font-size: 15px;
+  padding: 0 5px;
+  color: #003da7;
+}
+.btn button:hover a {
+  color: white;
+}
+.btn button:hover {
+  background-color: #063279;
+}
+.btn button:hover i {
+  color: white;
+}
+
+.about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+.about h2 {
+  padding-left: 40px;
+  font-size: 40px;
+  color: #003da7;
+  font: 700;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  /* overflow: hidden; */
+}
+.about .ab-pic {
+  width: 100%;
+  /* height: 300px; */
+  overflow: hidden;
+}
+.about-img {
+  padding: 50px;
+}
+.ab-pic img {
+  width: 100%;
+  height: 400px;
+  opacity: 1;
+}
+
+.about-img .ab-pic h4 {
+  position: absolute;
+  top: 50%;
+  /* text-align: center; */
+}
+.ab-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ab-pic h4 a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+.ab-pic:hover {
+  transform: scale(1.1);
+}
+.ab-pic:hover img {
+  transition: 0.5s all ease-in-out;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  body {
+    overflow-x: hidden;
+  }
+  .hero_icon img {
+    height: 300px;
+    width: 600px;
+    border-radius: 20%;
+    padding: auto;
+    margin-top: -20px;
+    margin-left: -130px;
+    background-color: #000;
+    background: #fff;
+  }
+  .content h1 {
+    font-size: 35px;
+    padding: 50px 30px;
+  }
+  .content h2{
+    font-size: 22px;
+    padding: 0px 15px;
+  }
+  .content p{
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .content-2 .para {
+    padding-top: 30px 0px;
+    text-align: center;
+  }
+  .icons {
+   flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+  }
+  .pic img {
+    height: 90px;
+  }
+  .P-and-G{
+    padding-top: 30px;
+  
+  }
+  .p-g img{
+    width: 100%;
+  }
+  .p-g h2 {
+    padding: 30px;
+   font-size: 20px;
+  }
+  .p-g-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .p-g-content .icon {
+    /* width: 48%; */
+    width: 100%;
+
+  }
+  .p-g-content img{
+    width: 100%;
+  }
+  .P-and-G {
+    padding: 20px;
+    text-align: center;
+  }
+  .p-g-content .description{
+    text-align: center;
+    width: 100%;
+  }
+  .description h2 {
+    padding: 30px 0; 
+  }
+  .description p {
+    width: 100%;
+    font-weight: 500;
+    line-height: 25px;
+    padding:0px 10px ;
+  }
+  .B-and-L{
+    width: 100%;
+    padding:30px 20px;
+  }
+  .b-l img{
+    width: 100%;
+    /* height: 200px; */
+  }
+  .b-l-content
+   {
+    width: 100%;
+   flex-direction: column;
+    gap: 60px;
+  }
+  .pics img {
+    width: 100%;
+    height: 280px;
+  }
+  .covid-19{
+    /* background-color: red; */
+    width: 100%;
+  }
+  .covid-19 img{
+    width: 100%;
+  }
+  .covid-19 p {
+    width: 100%;
+    padding: 10x;
+    font-weight: 500;
+  }
+  .images {
+    /* background-color: red; */
+   flex-direction: column;
+    align-items: center; 
+    gap: 30px;
+  }
+  .covid-content h3 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .covid-content p{
+    width: 100%;
+    padding: 30px;
+  }
+  .vaccine p{
+    width: 100%;
+    padding: 30px;
+  }
+  .impact-content h3 {
+    font-size: 20px;
+    /* color: #003da7;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 25px; */
+  }
+}
