@@ -4,11 +4,12 @@
     box-sizing: border-box;
     font-family: Montserrat;
 }
-header{
+main{
+    /* background-color: red; */
+}
+/* header{
     background-color: #003da7;
-    /* background-color: rgba(1,107,210,255); */
     width: 100%;
-    /* background-color: #000; */
     position: sticky;
     top: 0;
 }
@@ -22,7 +23,7 @@ header nav ul{
     display: flex;
     /* justify-content: space-evenly;
     align-items: center; */
-}
+/* }
 nav ul li{
     margin: 10px;
     list-style-type: none;  
@@ -49,18 +50,9 @@ nav .logo img{
 
 nav ul li a:hover {
     color: aqua;
-}
+} */
 
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -202,4 +194,60 @@ footer .pp2{
 .pp2 form button:hover{
     background-color: rgba(1,107,210,255);
     border: 2px solid black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .Blog h2{
+        font-weight: 600;
+    }
+    .container{
+        /* flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 5px; */
+    }
+    .item{
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    
+    }
+    .item img{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .item  p{
+        /* margin-top: 10px; */
+        /* padding: 15px; */
+        padding-left: 15px;
+        font-size: small;
+    }
+    .item h3{
+        padding-left: 15px;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        /* margin-top: 10px; */
+        color: white;
+    }
+    .item a{
+        padding-left: 15px;
+        color: #003da7;
+        font-weight: 600;
+    }
+    .pagination ul li{
+        /* width: 100%; */
+        /* padding: 0px 20px; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* margin: 10px; */
+        padding: 12px;
+    }
+    
+    footer{
+         display: flex;
+         flex-direction: wrap;
+         /* justify-content: center; */
+         padding-top: 60px;
+     }
 }
