@@ -105,7 +105,7 @@ Throughout the development of our project, our team encountered various challeng
 </ul>
 
 ## 📌 <span style="color:#29c4f6">WEBSITE UI 
- ## 1. HOME PAGE UI
+## 1. HOME PAGE UI
 
  ![Screenshot 1](./screenshots/home1.png)
  ![Screenshot 2](./screenshots/home2.png)
@@ -113,7 +113,7 @@ Throughout the development of our project, our team encountered various challeng
  ![Screenshot 4](./screenshots/home4.png)
  ![Screenshot 5](./screenshots/home5.png)
 
-##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
+##### UI Description:<i> "The Home page is designed suct that it help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 
 ## 2. BRANDS PAGE UI
@@ -128,7 +128,7 @@ Throughout the development of our project, our team encountered various challeng
  ![Screenshot 8](./screenshots/b8.png)
  ![Screenshot 9](./screenshots/b9.png)
 
-##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
+##### UI Description:<i> "The Brand page is designed such that help users to easily access through the brands name users want to purchase. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 
 ## 3.  ETHICS & CORPORATE RESPONSIBILITY UI
@@ -137,8 +137,32 @@ Throughout the development of our project, our team encountered various challeng
  ![Screenshot 2](./screenshots/p2.png)
  ![Screenshot 3](./screenshots/b9.png)
 
-##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
+##### UI Description:<i> "The Ethics and corporate responibility page is designed such that help users to easily access regarding the policies of the company. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
+
+## 3. COMMUNITY IMPACT UI
+
+ ![Screenshot 1](./screenshots/p1.png)
+ ![Screenshot 2](./screenshots/p2.png)
+ ![Screenshot 3](./screenshots/b9.png)
+
+##### UI Description:<i> "The Community impact page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
+
+## 4. INGREDIENTS
+ 
+ ![Screenshot 1](./screenshots/p1.png)
+ ![Screenshot 2](./screenshots/p2.png)
+ ![Screenshot 3](./screenshots/b9.png)
+
+##### UI Description:<i> "The Ingredients page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
+
+## 5. COUPONS
+
+ ![Screenshot 1](./screenshots/p1.png)
+ ![Screenshot 2](./screenshots/p2.png)
+ ![Screenshot 3](./screenshots/b9.png)
+
+##### UI Description:<i> "The Coupons page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 ## 📌 <span style="color:#29c4f6">LICENSE
 <ul type=circle>
