@@ -350,7 +350,7 @@ body {
 .btn button {
   /* padding: auto; */
   /* margin: auto; */
-  padding: 10px;
+  padding: 5px;
   height: 50px;
   border-radius: 25px;
   background-color: #fff;
@@ -440,15 +440,22 @@ body {
     overflow-x: hidden;
   }
   .hero_icon img {
-    height: 300px;
-    width: 600px;
-    border-radius: 20%;
-    padding: auto;
-    margin-top: -20px;
-    margin-left: -130px;
-    background-color: #000;
-    background: #fff;
+  height: 300px;
+  width: 320px;
+  border-bottom-right-radius: 20% ;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 0%;
+  border-top-left-radius: 0%;
+  padding: auto;
+  margin-top: 0px;
+  margin-left:0px;
   }
+  .hero-symbol{
+    font-size: 50px;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
   .content h1 {
     font-size: 35px;
     padding: 50px 30px;
@@ -491,6 +498,7 @@ body {
   }
   .p-g-content .icon {
     /* width: 48%; */
+    border-radius: 30%;
     width: 100%;
 
   }
@@ -563,10 +571,211 @@ body {
     padding: 30px;
   }
   .impact-content h3 {
+    font-size: 18px;
+    padding: 0px 35px;
+    /* text-align: center; */
+    font-weight: 600;
+  }
+  .btn {
+   flex-direction: column;
+    gap: 15px;
+    padding: 0px 40px;
+  }
+  .about {
+    margin-top: 60px;
+    margin-bottom:0px;
+  }
+  .about h2 {
+  
+    padding-left: 20px;
     font-size: 20px;
-    /* color: #003da7;
-    padding-top: 10px;
-    font-weight: 500;
-    font-size: 25px; */
+    color: #003da7;
+    font: 700;
+  }
+  .about-img {
+   flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 30px;
+    position: relative;
+    /* overflow: hidden; */
+  }
+  .about-img {
+    padding: 10px;
+  }
+  .ab-pic img {
+    width: 80%;
+    height: 240px;
+    /* opacity: 0.5; */
+    filter: brightness(0.6);
+  }
+  .about-img .ab-pic h4 {
+    position: absolute;
+    top: 50%;
+    /* text-align: center; */
+  }
+  #pic-1{
+    top: 110px;
+  }
+  #pic-3{
+    top: 660px;
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+  .hero_icon img {
+    height: 500px;
+  width: 100%;
+  border-bottom-right-radius: 25% ;
+  border-bottom-left-radius: 25%;
+  border-top-right-radius: 0%;
+  border-top-left-radius: 0%;
+  padding: auto;
+  margin-top: 0px;
+  margin-left:0px;
+  }
+  .hero-symbol{
+    font-size: 50px;
+    position: absolute;
+    top: 95%;
+    left: 45%;
+}
+.icons {
+   gap: 10px;
+
+ }
+ .p-g-content {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.p-g-content .icon {
+  width: 100%;
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.icon img{
+  width: 100%;
+}
+.p-g-content .description {
+  padding: 0 auto;
+  width: 100%;
+  margin: 20px 0px;
+  /* margin-bottom: 20px; */
+}
+.description h2{
+  padding-right: 0px;
+  text-align: center;
+}
+.description p {
+  width: 100%;
+  padding: 10px;
+}
+.b-l-content {
+  flex-direction: column;
+  gap: 50px;
+}
+.pics img {
+  height: 250px;
+}
+.covid-19 p {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 15 px 30px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.images {
+  gap: 60px;
+}
+.covid-content h3 {
+  font-size: 30px;
+  color: #003da7;
+  /* padding-top: 30px; */
+  padding: 20px 40px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.covid-content p {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding:30px 20px;
+  line-height: 25px;
+  font-weight: 500;
+  /* font-size: 20px; */
+}
+.vaccine {
+  text-align: center;
+  padding: 50px 0;
+}
+.vaccine p {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding:30px 20px;
+  /* font-weight: 500; */
+}
+.impact-content p {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding:30px 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btn {
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+
+}
+.btn button{
+  padding:5px ;
+}
+/* .about h2{
+  padding: 40px 0px;
+} */
+.about-img {
+  flex-direction: column;
+   /* justify-content: center; */
+   /* align-items: center; */
+   gap: 30px;
+   position: relative;
+   /* overflow: hidden; */
+ }
+ .about {
+  margin-top: 60px;
+  margin-bottom:0px;
+}
+.about h2 {
+  padding: 50px 20px;
+  font-size: 20px;
+  color: #003da7;
+  font: 700;
+}
+.about-img {
+  padding: 10px;
+}
+.ab-pic img {
+  width: 350px;
+  height: 350px;
+  /* opacity: 0.5; */
+  filter: brightness(0.6);
+}
+.about-img .ab-pic h4 {
+  position: absolute;
+  top: 50%;
+  /* text-align: center; */
+}
+#pic-1{
+  top: 180px;
+}
+#pic-3{
+  top: 930px;
+}
+}
+
