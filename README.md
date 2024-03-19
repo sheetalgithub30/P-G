@@ -140,7 +140,7 @@ Throughout the development of our project, our team encountered various challeng
 ##### UI Description:<i> "The Ethics and corporate responibility page is designed such that help users to easily access regarding the policies of the company. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 
-## 3. COMMUNITY IMPACT UI
+## 4. COMMUNITY IMPACT UI
 
  ![Screenshot 1](./screenshots/p1.png)
  ![Screenshot 2](./screenshots/p2.png)
@@ -148,7 +148,7 @@ Throughout the development of our project, our team encountered various challeng
 
 ##### UI Description:<i> "The Community impact page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
-## 4. INGREDIENTS
+## 5. INGREDIENTS
  
  ![Screenshot 1](./screenshots/p1.png)
  ![Screenshot 2](./screenshots/p2.png)
@@ -156,7 +156,7 @@ Throughout the development of our project, our team encountered various challeng
 
 ##### UI Description:<i> "The Ingredients page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
-## 5. COUPONS
+## 6. COUPONS
 
  ![Screenshot 1](./screenshots/p1.png)
  ![Screenshot 2](./screenshots/p2.png)

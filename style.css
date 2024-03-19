@@ -17,6 +17,19 @@ body{
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
   }
+
+  .b1Hover{
+    background-color: rgba(5, 5, 249, 0.8);
+  }
+
+  .b1:hover{
+    .b1Hover{
+      display: block;
+    }
+    transform: scale(1.5);
+  }
+
+
   #relation::before {
     content: " ";
     position: absolute;
@@ -97,15 +110,19 @@ body{
      #invest{
       display: block;
      }
-    
+     #relationin{
+     transform: scale(1.08);
+     }
   }
-
    
 
   #career:hover{
     #explore{
       display: block;
     }
+    #careerin{
+      transform: scale(1.08);
+      }
   }
  
   footer{
