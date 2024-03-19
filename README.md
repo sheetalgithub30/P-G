@@ -42,25 +42,28 @@ This project was assigned by <a href="#"><u>Geekster</u></a> as a Major Project 
  ####  <span style="color:#ef00ff">1. Responsive Design:
 <ul>The website is responsive to different screen sizes and devices, providing a seamless experience for users on desktops, tablets, and mobile devices.</ul>
 
- ####  <span style="color:#ef00ff">2. Navigation Menu:
+####  <span style="color:#ef00ff">2. Animation:
+<ul>The website contains some animation effects.</ul>
+
+ ####  <span style="color:#ef00ff">3. Navigation Menu:
 <ul>Implemented an intuitive and well-organized navigation menu to help users easily explore different sections of the website.</ul>
 
- ####  <span style="color:#ef00ff">3. Brands Page:
+ ####  <span style="color:#ef00ff">4. Brands Page:
 <ul>Displays clear images, concise descriptions, and relevant information about the brands and their respective products.</ul>
 
-####  <span style="color:#ef00ff">4. Ethics and Corporate Responsibility Page:
+####  <span style="color:#ef00ff">5. Ethics and Corporate Responsibility Page:
 <ul>Details about the plicies and ethics of the company.</ul>
 
- #### <span style="color:#ef00ff">5. Community Imopact:
+ #### <span style="color:#ef00ff">6. Community Impact:
 <ul>Supporting education, hygiene or delivering essentials for families impacted by disaster.</ul>
 
-####  <span style="color:#ef00ff">6. Ingredients:
+####  <span style="color:#ef00ff">7. Ingredients:
 <ul>Talks about Ingredient choices and how we make them.</ul>
 
-####  <span style="color:#ef00ff">6. Coupons:
+####  <span style="color:#ef00ff">8. Coupons:
 <ul>Contains various blogs and coupons related to our products.</ul>
 
-####  <span style="color:#ef00ff">8. Footer:
+####  <span style="color:#ef00ff">9. Footer:
 <ul>A footer containing essential links of partners and investors associated with the Procter and Gamble, rules and regulations, social media tags.</ul>
 
 ## 📌 <span style="color:#29c4f6">TECHNOLOGIES  
@@ -156,7 +159,7 @@ Throughout the development of our project, our team encountered various challeng
 ##### UI Description:<i> "The Brand page is designed such that help users to easily access through the brands name users want to purchase. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 
-## 3.  ETHICS & CORPORATE RESPONSIBILITY UI
+## 3. ETHICS & CORPORATE RESPONSIBILITY UI
 
  ![Screenshot 1](./screenshots/p1.png)
  ![Screenshot 2](./screenshots/p2.png)
