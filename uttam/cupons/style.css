@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Montserrat;
 }
+body{
+  /* background-color: #fff; */
+}
 body,
 html {
   height: 100%; 
@@ -61,7 +64,7 @@ html {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
-  background-color: #000;
+  background-color: #f1f1f1;
 }
 
 .ingredient .left {
@@ -73,11 +76,12 @@ html {
 .left .title h2 {
   color: #003da7;
   font-size: 45px;
+  font-weight: 700;
 }
 .left .title p {
   margin-top: 30px;
   font-size: 16px;
-  color: white;
+  color: black;
   line-height: 30px;
 }
 .ingredient-content .description {
@@ -85,7 +89,8 @@ html {
 }
 .description h2 {
   color: #003da7;
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: 600;
 }
 .description p {
   /* font-weight: 300; */
@@ -94,16 +99,17 @@ html {
   line-height: 30px;
 }
 span {
-  color: rgb(248, 248, 5);
+  color: skyblue;
 }
 button {
-  background-color: #000;
+  /* background-color: #000; */
   border-radius: 50px;
   padding: 0px 10px;
   height: 45px;
   font-size: 15px;
   font-weight: 600;
   margin-top: 20px;
+  border-color: red;
 }
 a {
   color: #003da7;
@@ -135,7 +141,7 @@ button a i:hover {
   align-items: center;
   border: 2px solid white;
   padding-top: 50px;
-  background-color: #000;
+  background-color: #f1f1f1;
 }
 .left-2 {
   width: 60%;
@@ -145,11 +151,12 @@ button a i:hover {
 .title h2 {
   color: #003da7;
   font-size: 45px;
+  font-weight: 700;
 }
 .title p {
   margin-top: 30px;
   font-size: 18px;
-  color: white;
+  color: black;
   line-height:30px; 
 }
 ul {
@@ -159,24 +166,25 @@ ul {
 ul li {
   font-weight: 400;
   font-size: 18px;
-  color: #fff;
+  color: black;
   line-height: 30px;
   list-style-type: none;
   padding-left: 20px;
 }
 .para {
   margin-top: 40px;
+  /* color: black; */
 }
 .para .p1 {
   font-size: 18px;
-  color: #fff;
+  color: black;
   font-weight: 400;
   line-height: 30px;
 }
 .para .p2 {
   font-size: smaller;
   margin-top: 40px;
-  color: #fff;
+  color: black;
 }
 .right-2 .img-1 img {
   width: 100%;
@@ -186,7 +194,7 @@ ul li {
 /* ingrident-3 */
 
 .ingrident-3 {
-  background-color: #f2f7ff;
+  /* background-color: rgb(218, 223, 231) ; */
   padding-top: 50px;
   padding: 20px;
 }
@@ -201,7 +209,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  background-color: #f2f7ff;
+  /* background-color: #f2f7ff; */
 }
 .left-3 .ingd-decs {
   padding-top: 40px;
@@ -215,7 +223,7 @@ ul li {
   font-size: 18px;
   line-height: 30px;
   padding-top: 20px;
-  color: #fff;
+  color: black;
 }
 .right-3 .ingd-decs {
   padding-top: 40px;
@@ -239,7 +247,7 @@ ul li {
 .fragrance {
   display: flex;
   justify-content: space-evenly;
-  background-color: #000;
+  background-color: #f1f1f1;
 }
 .fragrance .left-4 {
   padding: 50px;
@@ -255,6 +263,7 @@ ul li {
 .fragrance .right-4 h2 {
   color: #003da7;
   font-size: 45px;
+  font-weight: 700;
   padding: 10px 15px;
 }
 .fragrance .right-4 p {
@@ -262,7 +271,7 @@ ul li {
   padding: 20px;
   font-size: 18px;
   font-weight: 500;
-  color: #fff;
+  color: black;
 }
 .fragrance .right-4 button{
   width: 200px;
@@ -277,12 +286,13 @@ ul li {
 
 .find {
   /* padding: 50px; */
-  background-color: #000;
+  background-color: #f1f1f1;
   border: 2px solid white;
 }
 .find .heading h2 {
   padding: 20px;
   color: #003da7;
+  font-weight: 700;
   font-size: 45px;
 }
 
@@ -372,9 +382,7 @@ footer{
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
-      body{
-        /* background-color: red; */
-      }
+
       .ingredient {
        flex-direction: column;
       
@@ -405,15 +413,17 @@ footer{
         top:150px;
         text-align: center;
         /* padding: 0 0px; */
-        left: 0px;
+        left:0px;
       }
       .hero-content h1{
         /* width: 100%; */
         font-size: 45px;
         
       }
+  
       .hero-content p{
         line-height: 20px;
+  
       }
       .hero-icon img {
         position: relative;
@@ -490,48 +500,122 @@ footer{
       }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1200px){
-    .hero-content p{
-      width: 100%;
-      /* margin-top: 0px; */
-    }
+@media only screen and (min-width: 481px) and (max-width: 768px){
 
-    .ingredient .left{
-      width: 60%;
-      font-size: 40px;
-    }
-  
-    .ingredient .right img{
-      width:20%;
-    }
-
+ 
+  .hero-content{
+    position: absolute;
+    top:150px;
+    text-align: center;
+    /* padding: 0 0px; */
+    left: 0px;
+  }
+  .hero-content h1{
+    /* width: 100%; */
+    font-size: 50px;
+    font-weight: 800;
     
-.ingredient {
-  
-  /* align-items: center; */
-  /* background-color: #000; */
-}
+  }
+  .hero-content p{
+    margin: auto;
+    line-height: 20px;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    
+  }
+  .hero-icon img {
+    position: relative;
+    height: 60px;
+    /* margin-left: 150px; */
+    /* margin: 0 auto; */
+     top: 90px; 
+    left: 0px; 
+  }
+  .Hero{
+    display: flex;
+    justify-content: center;
+    
+    /* margin-left:; */
+    /* align-items: center; */
+  }
+  .ingredient {
+    flex-direction: column;
+   }
+   .ingredient .left{
+     width: 100%;
+   }
+   .ingredient .left h2{
+    font-size: 25px;
+   }
 
-.ingredient .left {
-  padding: 20px;
-  width: 100%;
-  margin-top: 50px;
+   .ingredient-content .description h2{
+     font-size: 25px;
+   }
+   .ingredient-content .description p a{
+    text-decoration: underline;
+    font-weight: 700;
+   }
+   
+   .right{
+     margin-top: 30px;
+   }
+   .right img{
+       width: 100%;     
+   }
+
+   .left-2 {
+    width: 100%;
+  }
+   .ingredient-2 .left-2 .title h2{
+    font-size: 25px;
+    font-weight: 700;
 }
-.left .title h2 {
+.ingredient-2 .right-2 .img-1{
+  display: none;
+}
+.ingrident-3 .title h2{
+  font-size: 23px;
+  font-weight: 700;
+}
+.ingredient-content-3  {
+  display: flex;
+  flex-direction:column ;
+}
+.left-3 h3{
+  font-size: 15px;
+  font-weight: 600;
+}
+.right-3 h3{
+  font-size: 10px;
+  font-weight:600 ;
+}
+.fragrance {
+  flex-direction: column;
+}
+.fragrance .right-4 h2 {
   color: #003da7;
-  font-size: 35px;
-}
-.left .title p {
-  margin-top: 30px;
-  font-size: 16px;
-  color: white;
-  line-height: 30px;
-}
-.ingredient-content .description {
-  margin-top: 20px;
-}
-.right {
-  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px 15px;
 }
 
+.find .heading h2{
+  font-size: 25px;
+}
+.find .images{
+  flex-direction: column;
+}
+.img img{
+  opacity: 0.9;
+}
+.img p a{
+  padding-left: 50px;
+  font-weight: bolder;
+  font-size: 18px;
+  opacity: 1;
+}
+.img img{
+  padding: 20px;
+}
 }
