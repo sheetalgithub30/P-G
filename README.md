@@ -38,6 +38,31 @@ This project was assigned by <a href="#"><u>Geekster</u></a> as a Major Project 
 
 🔖 It was an exciting opportunity for all of us to apply our skills and collaborate with each other to create a polished website.🌏 
 
+## :artificial_satellite:<span style="color:#29c4f6">FEATURES
+ ####  <span style="color:#ef00ff">1. Responsive Design:
+<ul>The website is responsive to different screen sizes and devices, providing a seamless experience for users on desktops, tablets, and mobile devices.</ul>
+
+ ####  <span style="color:#ef00ff">2. Navigation Menu:
+<ul>Implemented an intuitive and well-organized navigation menu to help users easily explore different sections of the website.</ul>
+
+ ####  <span style="color:#ef00ff">3. Brands Page:
+<ul>Displays clear images, concise descriptions, and relevant information about the brands and their respective products.</ul>
+
+####  <span style="color:#ef00ff">4. Ethics and Corporate Responsibility Page:
+<ul>Details about the plicies and ethics of the company.</ul>
+
+ #### <span style="color:#ef00ff">5. Community Imopact:
+<ul>Supporting education, hygiene or delivering essentials for families impacted by disaster.</ul>
+
+####  <span style="color:#ef00ff">6. Ingredients:
+<ul>Talks about Ingredient choices and how we make them.</ul>
+
+####  <span style="color:#ef00ff">6. Coupons:
+<ul>Contains various blogs and coupons related to our products.</ul>
+
+####  <span style="color:#ef00ff">8. Footer:
+<ul>A footer containing essential links of partners and investors associated with the Procter and Gamble, rules and regulations, social media tags.</ul>
+
 ## 📌 <span style="color:#29c4f6">TECHNOLOGIES  
 [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
  #### <span style="color:#ef00ff">1. HTML  
@@ -142,25 +167,29 @@ Throughout the development of our project, our team encountered various challeng
 
 ## 4. COMMUNITY IMPACT UI
 
- ![Screenshot 1](./screenshots/p1.png)
- ![Screenshot 2](./screenshots/p2.png)
- ![Screenshot 3](./screenshots/b9.png)
+ ![Screenshot 1](./screenshots/c1.png)
+ ![Screenshot 2](./screenshots/c2.png)
+ ![Screenshot 3](./screenshots/c3.png)
+ ![Screenshot 2](./screenshots/c4.png)
+ ![Screenshot 3](./screenshots/c5.png)
 
 ##### UI Description:<i> "The Community impact page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 ## 5. INGREDIENTS
  
- ![Screenshot 1](./screenshots/p1.png)
- ![Screenshot 2](./screenshots/p2.png)
- ![Screenshot 3](./screenshots/b9.png)
+ ![Screenshot 1](./screenshots/i1.png)
+ ![Screenshot 2](./screenshots/i2.png)
+ ![Screenshot 3](./screenshots/i3.png)
+ ![Screenshot 2](./screenshots/i4.png)
+ ![Screenshot 3](./screenshots/i5.png)
 
 ##### UI Description:<i> "The Ingredients page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 ## 6. COUPONS
 
- ![Screenshot 1](./screenshots/p1.png)
- ![Screenshot 2](./screenshots/p2.png)
- ![Screenshot 3](./screenshots/b9.png)
+ ![Screenshot 1](./screenshots/cu1.png)
+ ![Screenshot 2](./screenshots/cu2.png)
+ ![Screenshot 3](./screenshots/cu3.png)
 
 ##### UI Description:<i> "The Coupons page is designed such that help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
