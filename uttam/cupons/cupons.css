@@ -5,33 +5,93 @@
   font-family: Montserrat;
 }
 
- /* header{
-    background-color: #003da7;
+.hamburger-button {
+  display: none;
+  height: 50px;
+  background-color: rgba(1, 107, 210, 255);
+  color:  white;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-links {
+  display: none;
+  background-color: rgba(1, 107, 210, 255);
+  color: white;
+}
+.nav-links a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform:uppercase ;
+}
+.nav-links a:hover {
+  /* background-color: aqua; */
+  color: aqua;
+}
+
+ header{
     width: 100%;
     position: sticky;
     top: 0;
 }
 header nav{
+  /* box-shadow: 3px 2px 3px 1px #88888888; */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+background-color:#fdfdfd;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 20px;
     align-items: center;
-    height: 100px;
+    height: 160px;
+}
+/* nav form input span{
+position: absolute;
+top: 100px;
+left: 20px;
+
+} */
+nav form {
+  margin-left: 40px;
+}
+nav form input{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+   border-radius: 30px;
+   border-color: rgba(173, 158, 158, 0.249);
+   /* width: 100%; */
+   height: 50px;
+   margin: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+ 
 }
 header nav ul{
     display: flex;
-    /* justify-content: space-evenly;
-    align-items: center; */
-/* }  */
-/* nav ul li{
-    margin: 10px;
+    justify-content: space-evenly;
+    /* align-items: center;  */
+}
+ nav ul li{
+    width: 80px;
+    height: 100%;
+    margin-right: 10px;
+     padding: auto;
+     text-align: center;
+    /* padding: 10px; */
+    line-height: 16px;
     list-style-type: none;  
 }
 nav ul li a{
-    word-spacing: 0px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
+    /* margin-top: 10px; */
     text-decoration: none;
-    color: #003da7;
+    line-height:0px;
+    /* color: #003da7; */
+}
+nav ul li img{
+  width: 60px;
 }
 nav ul li a i{
     font-size: 25px;
@@ -41,14 +101,15 @@ nav ul li a i{
     align-items: center;   
 }
 nav .logo img{
-    width: 100%;
-    height: 50px;
-    margin: 10px;
+    width: 60%;
+    padding-bottom: 35px;
+    /* height: 50px; */
+    /* margin: 10px; */
 }
 
 nav ul li a:hover {
     color: aqua;
-}   */
+}  
 
 .Blog {
   /* margin-top: 0; */
@@ -59,6 +120,7 @@ nav ul li a:hover {
   color: #003da7;
   text-transform: uppercase;
   padding: 15px;
+  font-weight: 800;
 }
 .item {
   height: auto;
@@ -77,8 +139,9 @@ nav ul li a:hover {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 10px;
-  color: white;
+  /* color: white; */
 }
+
 .item a:hover {
   color: aqua;
 }
@@ -88,10 +151,22 @@ nav ul li a:hover {
   flex-wrap: wrap;
   gap: 5px;
 }
+/* .pagination {
+  width: 100%;
+  /* margin: 60px; */
+  /* display: flex;
+  justify-content: center;
+ } */
+
 .pagination {
+  padding: 30px 0px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
+
+
 .distributor {
   display: flex;
   justify-content: center;
@@ -131,6 +206,7 @@ footer h3 {
   font-weight: 700;
   padding-bottom: 15px;
   /* padding-left: 25px; */
+  color: white;
 }
 footer .option ul li {
   list-style-type: none;
@@ -145,7 +221,7 @@ footer .option ul li a {
 .pic img {
   width: 40px;
   height: 40px;
-  background-color: #000;
+  background-color: #f1f1f1;
   border-radius: 8px;
   padding: 5px;
 }
@@ -175,6 +251,7 @@ footer .pp2 {
 }
 .pp2 p{
   font-size: 14px;
+  color: white;
 }
 .pp2 form button {
   border-radius: 20px;
@@ -190,21 +267,89 @@ footer .pp2 {
   height: 35px;
   width: 60%;
   border-radius: 20px;
-  background-color: #000;
+  background-color: #f1f1f1;
   font-size: 12px;
   padding: 0px;
   color: white;
   padding-left: 10px;
+  border-color: white;
 }
 .pp2 form button:hover {
   background-color: rgba(1, 107, 210, 255);
-  border: 2px solid black;
+  border: 2px solid #2ed7e3;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .Blog h2 {
     font-weight: 600;
   }
+
+  
+  header nav{
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 10px;
+    height: 80px;
+  }
+     header nav .logo img{
+    width: 100%;
+    padding-bottom: 0px;
+
+}
+   header nav .logo{
+  width: 60px;
+  height: 60px;
+}
+  
+
+  .hamburger-button {
+    display: block;
+    width: 110%;
+    height: 50px;
+    padding: 8px;
+    font-size: 18px;
+  }
+  .nav-links {
+    margin-top: 130px;
+    width: 70%;
+    height: 200px;
+    overflow: scroll;
+    display: none;
+    background-color: rgba(1, 107, 210, 255);
+    color: black;
+  }
+  .nav-links a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+    text-decoration: none;
+    text-transform:uppercase ;
+  }
+  .nav-links a:hover {
+    background-color: aqua;
+    color: aqua;
+  }
+
+ nav .navs{
+  display: none;
+}
+
+header nav{
+  /* box-shadow: 3px 2px 3px 1px #88888888; */
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+nav .logo img{
+  width: 50%;
+  padding-bottom: 0px;
+  /* height: 50px; */
+  /* margin: 10px; */
+}
+
   .container {
     /* flex-direction: column;
         justify-content: space-evenly;
@@ -232,16 +377,14 @@ footer .pp2 {
     font-weight: 700;
     text-transform: uppercase;
     /* margin-top: 10px; */
-    color: white;
+    /* color: white; */
   }
   .item a {
     padding-left: 15px;
     color: #003da7;
     font-weight: 600;
   }
-  .pagination ul  {
-    padding: 30px 0px;
-  }
+ 
   .distributor {
     padding-bottom: 30px;
     margin: 10px 20px;
@@ -333,16 +476,65 @@ footer .pp2 {
         font-weight: 700;
         text-transform: uppercase;
         /* margin-top: 10px; */
-        color: white;
+        /* color: white; */
       }
       .item a {
         padding-left: 15px;
         color: #003da7;
         font-weight: 600;
       }
-      .pagination ul  {
-        padding: 30px 0px;
+
+      header nav{
+        width: 100%;
+        justify-content: space-between;
+        padding: 30px 40px;
+        height: 80px;
       }
+      nav .logo img{
+        width: 100%;
+        padding-bottom: 0px;
+
+    }
+    nav .logo{
+      width: 60px;
+      height: 60px;
+    }
+      
+  .hamburger-button {
+    display: block;
+    justify-content: space-between;
+    width: 110%;
+    height: 50px;
+    /* gap: 500px; */
+    padding: 8px;
+    font-size: 18px;
+  }
+  .nav-links {
+    margin-top: 130px;
+    width: 70%;
+    height: 200px;
+    overflow: scroll;
+    display: none;
+    background-color: rgba(1, 107, 210, 255);
+    color: black;
+  }
+  .nav-links a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+    text-decoration: none;
+    text-transform:uppercase ;
+  }
+  .nav-links a:hover {
+    background-color: aqua;
+    color: aqua;
+  }
+      nav .navs{
+        display: none;
+      }
+    
       .distributor {
         padding-bottom: 30px;
         margin: 10px 20px;
@@ -429,14 +621,7 @@ footer .pp2 {
         padding-left: 0px;
         font-size: large;
       }
-      .pagination ul  {
-        padding-top: 60px ;
-        
-      }
-      .pagination ul li a{
-        font-size: 18px;
-        padding: 15px;
-      }
+      
       .distributor {
         padding-top: 30px;
         margin: 10px 20px;

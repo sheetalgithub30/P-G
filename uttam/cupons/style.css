@@ -4,9 +4,7 @@
   box-sizing: border-box;
   font-family: Montserrat;
 }
-body{
-  /* background-color: #fff; */
-}
+
 body,
 html {
   height: 100%; 
@@ -21,7 +19,7 @@ html {
   -webkit-mask-image: radial-gradient(
     125% 10% at 50% 102%,
     transparent 50%,
-    #fff 51%
+    /* #fff 51% */
   );
   mask-image: radial-gradient(125% 10% at 50% 102%, transparent 50%, #fff 51%);
 }
@@ -619,3 +617,37 @@ footer{
   padding: 20px;
 }
 }
+
+
+/* sheetal */  
+
+ @media screen and (max-width:960px){
+  navbar ul li a{
+      display: none;
+  }
+  navbar a{
+      display: none;
+  }
+  #bar{
+      display: block;
+      margin: 10px 20px;
+  }
+  navbar ul li img{
+      display: flex;
+      position: relative;
+      top:-2rem;
+      width: 3rem;
+      margin: 10px 10px;
+      align-items: center;
+      justify-content: center;
+  } 
+
+  .footer-top{
+    display: block;
+  }
+
+  .footer-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+} 
